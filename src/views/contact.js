@@ -1,0 +1,1 @@
+// aquí se genera el contenido de las views

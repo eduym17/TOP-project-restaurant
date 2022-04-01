@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../src/assets/images/background-md.jpg);
+  background-position: center;
+  object-fit: cover;
+  color: white;
+}

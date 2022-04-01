@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log(\"Mensaje de prueba\")\n\n//# sourceURL=webpack://project-restaurant-page/./src/index.js?");
+eval("// import FUNCTION from SRC\r\n\r\n// AQUÍ se llama a las funciones de despliegue para las distintas views, llamando primero a la función de despliegue principal\n\n//# sourceURL=webpack://project-restaurant-page/./src/index.js?");
 
 /***/ })
 

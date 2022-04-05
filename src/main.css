@@ -21,11 +21,10 @@
   background: #251791;
   font-family: 'Poppins', sans-serif;
   color: white;
-  height: 100px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  justify-self: flex-start;
 }
 
 .logoName {
@@ -70,7 +69,6 @@
   justify-content: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  padding: 30px;
 }
 
 .homeHeader, .menuHeader {
@@ -79,6 +77,7 @@
   background: #111123;
   padding: 10px;
   border-radius: 10px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -111,7 +110,6 @@
   justify-content: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  padding: 30px;
   width: 75%;
 }
 
@@ -121,10 +119,11 @@
 }
 
 .menuFoods {
-  margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .menuFood {
@@ -164,8 +163,8 @@
   justify-self: flex-end;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 200px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .githubLink {

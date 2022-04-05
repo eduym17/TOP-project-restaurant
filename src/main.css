@@ -27,10 +27,19 @@
   justify-content: space-around;
 }
 
+.logoContent {
+  display: flex;
+  align-items: center;
+}
+
 .logoName {
   color: white;
   font-size: x-large;
   font-weight: 700;
+}
+
+.logoIcon {
+  height: 45px;
 }
 
 .navBar {

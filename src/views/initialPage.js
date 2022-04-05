@@ -6,13 +6,22 @@ function createHeader() {
   const header = document.createElement('header')
   header.classList.add('header');
 
+  const logoContent = document.createElement('div');
+  logoContent.classList.add('logoContent');
+
+  const logoIcon = document.createElement('img');
+  logoIcon.classList.add('logoIcon');
+  logoIcon.src = '../src/assets/icons/l-white.png';
+  logoContent.appendChild(logoIcon);
+
   const logo = document.createElement('a');
   logo.textContent = 'AsteroiFood';
   logo.classList.add('logoName', 'logoAnchor');
   logo.href = "https://youtu.be/dQw4w9WgXcQ"; //change
   logo.target = '_blank'; //remove
+  logoContent.appendChild(logo);
   
-  header.appendChild(logo);
+  header.appendChild(logoContent);
   header.appendChild(createNav());
   
   return header;
@@ -75,7 +84,7 @@ function createFooter() {
 
   const asteroidevBrand = document.createElement('img');
   asteroidevBrand.classList.add('brandLogo');
-  asteroidevBrand.src = '../src/assets/icons/h-white.png';
+  asteroidevBrand.src = '../src/assets/icons/h-white-gradient.png';
 
   githubLink.appendChild(githubImage);
 

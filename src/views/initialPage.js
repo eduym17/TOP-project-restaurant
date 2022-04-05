@@ -63,23 +63,24 @@ function createFooter() {
   const footer = document.createElement('footer');
   footer.classList.add('footer')
 
-  const copyright = document.createElement('p');
-  copyright.innerText = `${new Date().getFullYear()}`;
-
   const githubLink = document.createElement('a');
   githubLink.classList.add('githubLink');
   githubLink.href = "https://github.com/eduym17";
-  githubLink.innerText = "©Eduardo Yañez";
+  githubLink.innerText = `${new Date().getFullYear()} ©Eduardo Yañez`;
   githubLink.target = '_blank';
 
   const githubImage = document.createElement('img');
   githubImage.classList.add('githubImage');
   githubImage.src = '../src/assets/icons/GitHub-Mark-Light-32px.png'
 
+  const asteroidevBrand = document.createElement('img');
+  asteroidevBrand.classList.add('brandLogo');
+  asteroidevBrand.src = '../src/assets/icons/h-white.png';
+
   githubLink.appendChild(githubImage);
 
-  footer.appendChild(copyright);
   footer.appendChild(githubLink);
+  footer.appendChild(asteroidevBrand);
 
   return footer;
 }

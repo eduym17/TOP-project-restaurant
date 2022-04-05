@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _views_initialPage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/initialPage */ \"./src/views/initialPage.js\");\n/* harmony import */ var _views_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./views/home */ \"./src/views/home.js\");\n// import FUNCTION from SRC\r\n\r\n// AQUÍ se llama a las funciones de despliegue para las distintas views, llamando primero a la función de despliegue principal\r\n\r\n\r\n\r\nstart();\r\n\r\nfunction start() {\r\n  (0,_views_initialPage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n}\r\n\n\n//# sourceURL=webpack://project-restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _views_initialPage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/initialPage */ \"./src/views/initialPage.js\");\n// import FUNCTION from SRC\r\n\r\n// AQUÍ se llama a las funciones de despliegue para las distintas views, llamando primero a la función de despliegue principal\r\n\r\n\r\nstart();\r\n\r\nfunction start() {\r\n  (0,_views_initialPage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n}\r\n\n\n//# sourceURL=webpack://project-restaurant-page/./src/index.js?");
 
 /***/ }),
 

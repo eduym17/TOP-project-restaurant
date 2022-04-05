@@ -15,11 +15,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
   background: #251791;
-  font-family: 'Poppins', sans-serif;
   color: white;
   height: 70px;
   display: flex;
@@ -68,10 +68,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
 }
 
-.homeHeader, .menuHeader {
+.homeHeader, .menuHeader, .contactHeader {
   font-size: xx-large;
   font-weight: 600;
   background: #111123;
@@ -92,6 +91,10 @@
   background-color:rgba(255, 255, 255, 0.8);
 }
 
+.homeContent:hover {
+  background-color:rgba(255, 255, 255, 1);
+}
+
 .homeContentMsg {
   font-weight: 400;
   font-size: large;
@@ -109,7 +112,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
   width: 75%;
 }
 
@@ -155,10 +157,39 @@
   height: 65px;
 }
 
+.contactContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color:#111123;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 25px;
+  gap: 25px;
+}
+
+.contactContent:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.contactChefImg {
+  height: 250px;
+}
+
+.contactData {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactAddressImg {
+  width: 250px;
+  border-radius: 10px;
+}
+
 .footer {
   background: #111123;
   color: white;
-  font-family: 'Poppins', sans-serif;
   height: 60px;
   justify-self: flex-end;
   display: flex;

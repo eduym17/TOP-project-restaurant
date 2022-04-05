@@ -6,10 +6,178 @@
 }
 
 .content {
-  height: 100vh;
-  width: 100vw;
-  background-image: url(../src/assets/images/background-md.jpg);
   background-position: center;
   object-fit: cover;
   color: white;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../src/assets/images/background-md.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background: #251791;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: flex-start;
+}
+
+.logoName {
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.navBar {
+  display: flex;
+  gap: 30px;
+}
+
+.navItem {
+  font-weight: 400;
+}
+
+.navAnchor, .logoAnchor, .githubLink {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.navAnchor:hover, .logoAnchor:hover {
+  color: #33FDD8;
+}
+
+.navAnchor:active {
+  color: #33FDD8;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+}
+
+.homeHeader, .menuHeader {
+  font-size: xx-large;
+  font-weight: 600;
+  background: #111123;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.homeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+.homeContentMsg {
+  font-weight: 400;
+  font-size: large;
+  max-width: 400px;
+  color: #111123;
+  text-align: justify;
+}
+
+.chefHome {
+  height: 350px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+  width: 75%;
+}
+
+.menuHeaderMsg {
+  font-size: large;
+  font-weight: 400;
+}
+
+.menuFoods {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.menuFood {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #111123;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuFood:hover {
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.foodName {
+  font-weight: 600;
+}
+
+.foodDescription {
+  font-size: small;
+  text-align: center;
+}
+
+.foodImage {
+  height: 65px;
+}
+
+.footer {
+  background: #111123;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  height: 60px;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.githubLink {
+  display: flex;
+  gap: 10px;
+}
+
+.githubImage {
+  height: 25px;
+  opacity: .80;
+}
+
+.githubImage:hover {
+  opacity: 1;
 }

@@ -7,4 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   mode: 'development',
+  output: {
+    publicPath: "/TOP-project-restaurant/",
+  },
 };

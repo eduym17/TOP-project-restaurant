@@ -258,6 +258,10 @@
     margin: 0;
   }
 
+  .menuHeader {
+    margin-top: 20px;
+  }
+
   .homeContent {
     flex-direction: column;
   }
@@ -268,5 +272,14 @@
 
   .contactContent {
     flex-direction: column;
+  }
+
+  .menuFood {
+    justify-content: flex-start;
+  }
+  
+  .menuFoods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
